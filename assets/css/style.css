@@ -1,0 +1,105 @@
+   /* Fondo de pantalla */
+
+   body{
+        margin: 0;
+        padding: 0; 
+        background-image: url("../img/San\ andres.jpg") ;
+        background-size: cover;
+        font-family: sans-serif;
+        height: 100vh;
+    }
+    
+    /* Cuadro donde va el login */
+  
+      /* Cuadrado Interfaz */
+      .logo {
+        width: 320px;
+        height: 420px;
+        background: #ffffff;
+        color: #000000;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 70px 30px;
+        border-radius: 5%;
+        
+        
+      }
+      
+      /* Configuracion Logo Estrella */
+      .logo .avatar {
+        width: 100px;
+        height: 100px;
+        border-bottom: 50%;
+        position: absolute;
+        top: -50px;
+        left: calc(50% - 50px);
+        border-radius: 50%;
+      }
+      
+      .logo h1 {
+        margin: 0;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 22px;
+      }
+      
+      .logo label {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        display: block;
+      }
+      
+      .logo input {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+      
+      .logo input[type="text"], .logo input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #000000;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color: #000000;
+        font-size: 16px;
+      }
+      
+      /* Boton de ingreso */
+      .logo input[type="submit"] {
+        border: none;
+        outline: none;
+        height: 40px;
+        background: #42b5db;
+        color: #000000;
+        font-size: 18px;
+        border-top: 20px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        
+      }
+      /* cambio de color del boton */
+      .logo input[type="submit"]:hover {
+        cursor: pointer;
+        background: #499ed6;
+        color: #000;
+      }
+      
+      .logo a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 20px;
+        color: rgb(0, 26, 255);
+      }
+      
+      .logo a:hover {
+        color: #00f7ff;
+      }
+
+      /* usar doble .. antes / para buscar una imagen y poder 
+      cargar css al momento de exportar los archivos 
+      comprimidos  */
+      
